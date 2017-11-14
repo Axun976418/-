@@ -74,7 +74,7 @@ $(document).ready(function () {
                 }).animate({
                     Counter: $this.text()
                 }, {
-                    duration: 2000,
+                    duration: 3000,
                     easing: 'swing',
                     step: function () {
                         $this.text(Math.ceil(this.Counter));
